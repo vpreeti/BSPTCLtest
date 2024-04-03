@@ -1,0 +1,37 @@
+
+        
+       
+    .container_map {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px; /* Adjust gap as needed */
+        height: 60vh; /* Full height of viewport */
+    }
+    .left-block {
+        background-color: lightblue; /* Just for demonstration */
+    }
+    .right-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Adjust gap as needed */
+    }
+    .right-block {
+        flex: 1;
+        background-color: lightgreen; /* Just for demonstration */
+    }
+    
+    #bihar-map {
+            width: 100%; /* Make the map responsive */
+          }
+          
+          /* Example: Style the map outline */
+          path {
+            fill: none; /* Remove fill color */
+            stroke: #000; /* Outline color */
+            stroke-width: 1; /* Outline width */
+          }
+          
+          /* Example: Style map hover effect */
+          path:hover {
+            stroke-width: 2; /* Increase outline width on hover */
+          }
